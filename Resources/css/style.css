@@ -9,15 +9,17 @@ h2 {
 
 
 #bio-image {
-    width: 200px;
-    height: 200px;
+    width: 30%;
+    height: auto;
     margin-right: 20px;
     float: left;
   }
   a {
     color: #d21034;
   }
-  
+  .bio_image_Cloudiness{
+    max-width: 70%;
+  }
   /* Selecting elements by class */
   .container {
     width: 1024px;
@@ -50,11 +52,7 @@ h2 {
     width: 100;
   }
   
-  #bio-image {
-    width: 200px;
-    height: 200px;
-    margin-right: 20px;
-  }
+  
   .plot-content { 
     margin-top: 30px;
     margin-bottom: 60px;
